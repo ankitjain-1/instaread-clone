@@ -50,13 +50,27 @@ a {
 .welcome-section {
   display: flex;
   justify-content: center;
+  background: #fafafa;
+}
+
+.wel-left {
   background: url("./../assets/cover_lap_mob.jpg");
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
+  width: 60%;
+  height: 65vh;
+  background-size: contain;
+}
+
+.wel-right {
+  width: 50%;
+  /* background-color: #fafafa; */
 }
 
 .wel-right-content {
   margin: 3rem 0;
-  width: 60%;
+  width: 50%;
   line-height: 2rem;
   font-size: 120%;
 }
@@ -231,4 +245,8 @@ hr {
 .section10 {
   display: grid;
   grid-template-columns: 3fr 2fr 2fr 2fr;
+}
+
+.footer-list a {
+  display: block;
 }
