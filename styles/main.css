@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.8rem;
+}
+
+.container {
+  padding: 0 20%;
+}
+
+.section {
+  padding: 3rem 15%;
+}
+
+.header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: white;
+  /* padding: 0 20rem; */
+  border-bottom: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+a:nth-child(1) {
+  margin-right: auto;
+}
+
+.header-item {
+  margin: 1rem;
+  color: #4d4d4d;
+}
+
+.header-item:active {
+  color: #0085e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  background: url("./../assets/cover_lap_mob.jpg");
+  background-repeat: no-repeat;
+}
+
+.wel-right-content {
+  margin: 3rem 0;
+  width: 60%;
+  line-height: 2rem;
+  font-size: 120%;
+}
+
+.wel-right-content-heading {
+  padding: 1rem;
+}
+
+.wel-right-content p {
+  padding: 1rem;
+}
+
+.instaread-button {
+  margin: 1rem;
+  padding: 0.8rem 2.5rem;
+  border-radius: 0.176rem;
+  box-shadow: 0 0.235rem 0.471rem 0 rgba(0, 0, 0, 0.17),
+    0 0.059rem 0.118rem 0 rgba(0, 0, 0, 0.07);
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #009aeb, #0085e6);
+  border: solid 1px #0085e6;
+  cursor: pointer;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.section2 img {
+  width: 6rem;
+}
+
+.smarter,
+.inspiration,
+.go {
+  font-size: 95%;
+  width: 30%;
+  padding: 2rem 3rem;
+}
+
+.vline {
+  height: 270px;
+  width: 1px;
+  background-color: #e4e4e4;
+}
+
+.section3 {
+  text-align: center;
+}
+
+.section3 img {
+  padding: 3rem;
+}
+
+.section4 {
+  text-align: center;
+}
+
+.section4 img {
+  padding: 3rem;
+}
+
+.section5 {
+  text-align: center;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(5, 15%);
+  justify-content: center;
+  row-gap: 4rem;
+  padding: 4rem 0;
+}
+
+.post-thumb {
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px 4px #cfcfcf;
+}
+
+.section6 {
+  text-align: center;
+}
+
+.section6-grid {
+  display: grid;
+  grid-template-areas:
+    "section6-item1 section6-item2 section6-item3"
+    "hr hr hr"
+    "section6-item4 section6-item5 section6-item6";
+  justify-content: center;
+}
+
+.section6-item1 {
+  grid-area: section6-item1;
+}
+
+.section6-item2 {
+  grid-area: section6-item2;
+}
+
+.section6-item3 {
+  grid-area: section6-item3;
+}
+
+.section6-item4 {
+  grid-area: section6-item4;
+}
+
+.section6-item5 {
+  grid-area: section6-item5;
+}
+.section6-item6 {
+  grid-area: section6-item6;
+}
+
+.section6 div {
+  margin: 2rem;
+}
+
+hr {
+  height: 1px;
+}
+
+.hr {
+  grid-area: hr;
+  background-color: #dbdbdb;
+  height: 1px;
+  padding: 0;
+}
+
+.section7 {
+  background-color: #f9f8fd;
+  display: flex;
+  justify-content: center;
+}
+
+.section7-item {
+  width: 100px;
+  margin: 0 4rem;
+}
+
+.section8 {
+  text-align: center;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  margin: 3rem 0;
+  text-align: start;
+}
+
+.comment {
+  width: 25%;
+}
+
+.comment-author {
+  text-align: end;
+}
+
+.section9 {
+  display: grid;
+  grid-template-columns: 100px 3fr 2fr 1.3fr;
+  justify-content: space-between;
+}
+
+.section10 {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 2fr;
+}
